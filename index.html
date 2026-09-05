@@ -7,6 +7,10 @@
 <title>Dr Eric R Miller</title>
 <meta name="description" content="Dr Eric R Miller, rural generalist and emergency doctor on the Sunshine Coast, Queensland. Clinical Lead at the Buderim Medicare Urgent Care Clinic, with academic and health technology roles.">
 <link rel="canonical" href="https://drericrmiller.com/">
+<link rel="icon" href="/favicon.ico" sizes="32x32">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta name="theme-color" content="#1B2A4A">
 
 <meta property="og:type" content="profile">
 <meta property="og:title" content="Dr Eric R Miller">
@@ -15,7 +19,7 @@
 <meta property="og:image" content="https://drericrmiller.com/og-image.png">
 <meta property="og:image:width" content="2400">
 <meta property="og:image:height" content="1260">
-<meta property="og:image:alt" content="Dr Eric R Miller, rural generalist and emergency doctor, Sunshine Coast, Queensland">
+<meta property="og:image:alt" content="ERM monogram and the name Dr Eric R Miller on a navy ground">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Dr Eric R Miller">
 <meta name="twitter:description" content="Rural generalist and emergency doctor, Sunshine Coast, Queensland.">
@@ -123,7 +127,8 @@
     --muted: #5f6569;
     --rule: #d8d3c8;
     --paper: #fdfdfb;
-    --mark: #2f5245;
+    --mark: #1B2A4A;
+    --accent: #2A7F8E;
   }
 
   *, *::before, *::after { box-sizing: border-box; }
@@ -152,6 +157,13 @@
   }
 
   .masthead { margin-bottom: 3.25rem; }
+
+  .emblem {
+    display: block;
+    width: 6rem;
+    height: auto;
+    margin: 0 0 1.75rem;
+  }
 
   .masthead h1 {
     font-size: clamp(2.6rem, 9vw, 4.25rem);
@@ -225,7 +237,7 @@
     text-decoration-thickness: 1px;
   }
 
-  a:hover { text-decoration-color: var(--mark); }
+  a:hover { text-decoration-color: var(--accent); }
 
   a:focus-visible {
     outline: 2px solid var(--mark);
@@ -246,6 +258,7 @@
 <main class="page">
 
   <header class="masthead">
+    <img class="emblem" src="/erm-emblem.svg" width="96" height="40" alt="" aria-hidden="true">
     <h1>Dr Eric R Miller</h1>
     <p class="postnominals">MBBS MSc FRACGP (RG) AACEM FAIDH</p>
     <p class="standfirst">Rural generalist and emergency doctor on the Sunshine Coast, Queensland, working in urgent care, virtual care and health technology.</p>
